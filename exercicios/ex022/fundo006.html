@@ -8,18 +8,26 @@
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+            /*Shorthand - background
+              color > image > position > repeet > [size]
+              > attacment
+            */
 
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
-            padding: 10;
+            max-width: 400px;
+            padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px ;
@@ -30,6 +38,9 @@
 <body>
     <main>
         <h1>Tester de Imagen de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum, ipsum laborum fuga eveniet, sit nobis harum cupiditate nulla accusantium, exercitationem labore aperiam quidem tempore velit quas perspiciatis minus ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellat tempora rem aliquid vitae voluptates molestiae alias accusamus perspiciatis? Saepe doloribus officiis sunt! Commodi, placeat voluptatibus. Tempore blanditiis itaque esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum, ipsum laborum fuga eveniet, sit nobis harum cupiditate nulla accusantium, exercitationem labore aperiam quidem tempore velit quas perspiciatis minus ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellat tempora rem aliquid vitae voluptates molestiae alias accusamus perspiciatis? Saepe doloribus officiis sunt! Commodi, placeat voluptatibus. Tempore blanditiis itaque esse.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum, ipsum laborum fuga eveniet, sit nobis harum cupiditate nulla accusantium, exercitationem labore aperiam quidem tempore velit quas perspiciatis minus ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellat tempora rem aliquid vitae voluptates molestiae alias accusamus perspiciatis? Saepe doloribus officiis sunt! Commodi, placeat voluptatibus. Tempore blanditiis itaque esse.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit illum, ipsum laborum fuga eveniet, sit nobis harum cupiditate nulla accusantium, exercitationem labore aperiam quidem tempore velit quas perspiciatis minus ullam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda repellat tempora rem aliquid vitae voluptates molestiae alias accusamus perspiciatis? Saepe doloribus officiis sunt! Commodi, placeat voluptatibus. Tempore blanditiis itaque esse.</p>
     </main>
 </body>
